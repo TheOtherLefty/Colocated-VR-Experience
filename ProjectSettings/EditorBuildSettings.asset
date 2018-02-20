@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VRScene.unity
-    guid: d0d2d3752ae56da46b74e617150e1d56
+    path: Assets/Scenes/Cinema.unity
+    guid: b41844a136b5ec641a35cab009a51641
