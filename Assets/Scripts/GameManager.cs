@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour {
+	public int CommSetting;
+	public bool MenuShow;
 
     private static GameManager _instance;
 
@@ -20,11 +23,13 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public int CommSetting;
-    public bool MenuShow = true;
-
     void Awake()
     {
         _instance = this;
+		MenuShow = true;
+
+		NetworkManager myNetworkManager = this.GetComponent (typeof(NetworkManager)) as NetworkManager;
+
+		NetworkClient host = myNetworkManager.StartHost();
     }
 }

@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience", "Colocated-VR-Experience.csproj", "{F5FE5AE2-DE6E-B24F-A4D0-29E63A5ACC76}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience", "Assembly-CSharp.csproj", "{ABA64BFA-B43B-05D0-A1E3-F00B0AB4B404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience.Editor", "Colocated-VR-Experience.Editor.csproj", "{168CE900-CF57-EC6F-1179-A5A10479703A}"
+Project("{26A6E94B-96C3-F1AB-5DA5-E0BB78FD264A}") = "Colocated-VR-Experience", "Assembly-UnityScript.unityproj", "{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience", "Assembly-CSharp-Editor.csproj", "{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F5FE5AE2-DE6E-B24F-A4D0-29E63A5ACC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5FE5AE2-DE6E-B24F-A4D0-29E63A5ACC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5FE5AE2-DE6E-B24F-A4D0-29E63A5ACC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5FE5AE2-DE6E-B24F-A4D0-29E63A5ACC76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{168CE900-CF57-EC6F-1179-A5A10479703A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{168CE900-CF57-EC6F-1179-A5A10479703A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{168CE900-CF57-EC6F-1179-A5A10479703A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{168CE900-CF57-EC6F-1179-A5A10479703A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA64BFA-B43B-05D0-A1E3-F00B0AB4B404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA64BFA-B43B-05D0-A1E3-F00B0AB4B404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA64BFA-B43B-05D0-A1E3-F00B0AB4B404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA64BFA-B43B-05D0-A1E3-F00B0AB4B404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
