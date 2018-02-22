@@ -122,9 +122,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="ProBuilderCore-Unity5">
  <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
  </Reference>
@@ -142,6 +139,21 @@
  </Reference>
  <Reference Include="ProBuilderEditor-Unity5">
  <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="Byn.Common">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/Byn.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Byn.Net.Native">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/Byn.Net.Native.dll</HintPath>
+ </Reference>
+ <Reference Include="Byn.Net.Websocket">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/Byn.Net.Websocket.dll</HintPath>
+ </Reference>
+ <Reference Include="WebRtcCSharp">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/WebRtcCSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="WebSocketSharpUnityMod">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/WebSocketSharpUnityMod.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/dougi/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

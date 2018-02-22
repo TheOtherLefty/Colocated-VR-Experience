@@ -243,9 +243,12 @@ a8ed45ab553b07236625df6cc6ac449c Assembly-CSharp.dll:.OVRLint
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarHand
 558ebdd5c791d30ce7c6bd84adf7245b Assembly-CSharp.dll:.PlayerController
 2db25c4782f7d17f2d71bf5375fd6179 Assembly-CSharp.dll:.TestScript
-b5c80a2e1b9359deb7e2c94c46679afb Assembly-CSharp.dll:VRStandardAssets.Utils.VRMenuItem
+a93330c45e6278939e9d949c717de8c4 Assembly-CSharp.dll:VRStandardAssets.Utils.VRMenuItem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:VRStandardAssets.Utils.VRInteractiveItem
 f500ea790ead39e077948dacb7f72d53 Assembly-CSharp.dll:VRStandardAssets.Utils.InputWarnings
 32dcc1dca94294515dfea07e896e1a84 Assembly-CSharp.dll:ProBuilder2.Examples.RuntimeEdit
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript.dll:.CharacterMotor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:VRStandardAssets.Utils.VRTrackingReset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Byn.Net.WebRtcNetworkFactory
+0a22c45c74b5c7ef21e9da54581645b1 Assembly-CSharp.dll:.MessageList
+63f4ec21e0be61752f3b33fad1c67964 Assembly-CSharp.dll:.ChatApp

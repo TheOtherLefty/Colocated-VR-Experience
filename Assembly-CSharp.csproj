@@ -273,6 +273,13 @@
      <Compile Include="Assets\VRSampleScenes\Scripts\Utils\UITint.cs" />
      <Compile Include="Assets\VRSampleScenes\Scripts\Utils\VRCameraFade.cs" />
      <Compile Include="Assets\VRSampleScenes\Scripts\Utils\VRCameraUI.cs" />
+     <Compile Include="Assets\WebRtcNetwork\example\ChatApp.cs" />
+     <Compile Include="Assets\WebRtcNetwork\example\DebugHelper.cs" />
+     <Compile Include="Assets\WebRtcNetwork\example\MessageList.cs" />
+     <Compile Include="Assets\WebRtcNetwork\scripts\BrowserWebRtcNetwork.cs" />
+     <Compile Include="Assets\WebRtcNetwork\scripts\BrowserWebRtcNetworkFactory.cs" />
+     <Compile Include="Assets\WebRtcNetwork\scripts\UnitySingleton.cs" />
+     <Compile Include="Assets\WebRtcNetwork\scripts\WebRtcNetworkFactory.cs" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
      <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
      <None Include="Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
@@ -285,6 +292,7 @@
      <None Include="Assets\OculusPlatform\THIRD_PARTY_NOTICES.txt" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
      <None Include="Assets\LICENSE.txt" />
+     <None Include="Assets\WebRtcNetwork\Plugins\android\AndroidManifest.xml" />
      <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
@@ -297,13 +305,17 @@
      <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
      <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
+     <None Include="Assets\WebRtcNetwork\Resources\webrtcnetworkplugin.txt" />
      <None Include="Assets\OvrAvatar\LICENSE.txt" />
      <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
      <None Include="Assets\OVR\Resources\OVRMRCameraFrameLit.shader" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+     <None Include="Assets\WebRtcNetwork\changelog.txt" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
      <None Include="Assets\OVR\THIRD_PARTY_NOTICES.txt" />
+     <None Include="Assets\WebRtcNetwork\readme.txt" />
      <None Include="Assets\OVR\Resources\Underlay Transparent Occluder.shader" />
+     <None Include="Assets\WebRtcNetwork\license.txt" />
      <None Include="Assets\OVR\Resources\Alpha Premultiply.shader" />
      <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
      <None Include="Assets\OvrAvatar\Samples\SocialStarter\README.txt" />
@@ -311,9 +323,12 @@
      <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
      <None Include="Assets\OSPNative\LICENSE.txt" />
+     <None Include="Assets\WebRtcNetwork\Plugins\android\readme.txt" />
      <None Include="Assets\OVR\Resources\OVRMRCameraFrame.shader" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
+     <None Include="Assets\WebRtcNetwork\Plugins\Byn.Common.xml" />
      <None Include="Assets\OVR\Resources\OVRMRClipPlane.shader" />
+     <None Include="Assets\WebRtcNetwork\LICENSE_WEBRTC.txt" />
      <None Include="Assets\OculusPlatform\LICENSE.txt" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
      <None Include="Assets\ProCore\ProBuilder\readme.txt" />
@@ -388,9 +403,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="ProBuilderCore-Unity5">
  <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
  </Reference>
@@ -408,6 +420,21 @@
  </Reference>
  <Reference Include="ProBuilderEditor-Unity5">
  <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="Byn.Common">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/Byn.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Byn.Net.Native">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/Byn.Net.Native.dll</HintPath>
+ </Reference>
+ <Reference Include="Byn.Net.Websocket">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/Byn.Net.Websocket.dll</HintPath>
+ </Reference>
+ <Reference Include="WebRtcCSharp">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/WebRtcCSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="WebSocketSharpUnityMod">
+ <HintPath>C:/Users/dougi/Documents/University/Colocated VR Experience/Colocated-VR-Experience/Assets/WebRtcNetwork/Plugins/WebSocketSharpUnityMod.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/dougi/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

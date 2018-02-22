@@ -32,4 +32,11 @@ public class GameManager : MonoBehaviour {
 
 		NetworkClient host = myNetworkManager.StartHost();
     }
+
+	void Update(){
+		if (CommSetting != 0) {
+			MenuShow = false;
+		}
+	}
+
 }
