@@ -31,11 +31,13 @@ namespace VRStandardAssets.Utils
 		}
 
 		void Highlight(){
-			this.transform.Translate (Vector3.forward);
+			this.transform.Translate (Vector3.forward *3);
+			Debug.Log ("\n\n\n Oh wow, you've looked at a menu item <3<3<3 \n\n\n");
 		}
 
 		void UnHighlight(){
-			this.transform.Translate (Vector3.back);
+			this.transform.Translate (Vector3.back *3);
+			Debug.Log ("\n\n\n Oh, I guess you had something else to be doing now. Have fun not looking at menus xx \n\n\n");
 		}
 
 		void Clicked(){

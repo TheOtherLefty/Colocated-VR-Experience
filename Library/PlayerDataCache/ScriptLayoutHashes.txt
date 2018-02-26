@@ -21,6 +21,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 66d32d00b46c3d8d94adf87eab850754 Assembly-CSharp.dll:VRStandardAssets.Utils.SelectionRadial
 3701e3caf5b94b889b58cb9f386c3bb9 Assembly-CSharp.dll:VRStandardAssets.Utils.VRCameraFade
+0a22c45c74b5c7ef21e9da54581645b1 Assembly-CSharp.dll:.MessageList
 d79de92723477d704d7beb523a6d339a Assembly-UnityScript.dll:.ThirdPersonController
 48a3c26993dff0d189fcfe26650422cf Assembly-CSharp.dll:VRStandardAssets.Utils.ObjectPool
 5979728add95abdc642051d92f726e95 Assembly-CSharp.dll:.OVRDebugHeadController
@@ -97,7 +98,6 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 bccbd336fb414aac9546b8262134f25a Assembly-CSharp.dll:.PlatformManager
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VRMenu
 ee3204a1e0e2cf67e04e01c8c820d5b4 Assembly-CSharp.dll:.OVRPlayerController
 9008bdf459020f5356e69af2650f275e Assembly-CSharp.dll:ProBuilder2.Examples.IcoBumpin
 c4e4b91294c70d915edf3dc7f21c7c7e Assembly-CSharp.dll:VRStandardAssets.Examples.ExampleRotation
@@ -176,6 +176,7 @@ ccd25ccca39fd5159c3471f7762e1ced Assembly-CSharp.dll:.OVRMonoscopic
 74a6fefe8bd94289ab461e70916d7ac3 Assembly-CSharp.dll:.OVRGrabbable
 1e042027c649b7b536a46a4e0335362a Assembly-CSharp.dll:.OVRCubemapCapture
 dcb51e7005f72ff749cf80109da642a2 Assembly-CSharp.dll:VRStandardAssets.Utils.VRCameraUI
+63f4ec21e0be61752f3b33fad1c67964 Assembly-CSharp.dll:.ChatApp
 a13e348db57cdb225ef648cd7f959981 ProBuilderCore-Unity5.dll:ProBuilder2.Common.pb_BezierShape
 d65f8e166eb4df1e46eb9eaa8ee261c1 ProBuilderCore-Unity5.dll:ProBuilder2.Common.pb_ColorPalette
 05524b8f659e7bfe5756d1335fec24ba ProBuilderCore-Unity5.dll:.pb_DummyScript
@@ -240,6 +241,7 @@ db6d272e82246ee6936be0f533c29f79 Assembly-CSharp.dll:VRStandardAssets.Examples.E
 069dbb2201dc5bbfc5610a4e530f0cd0 Assembly-CSharp.dll:.OvrAvatarSkinnedMeshRenderComponent
 a8ed45ab553b07236625df6cc6ac449c Assembly-CSharp.dll:.OVRLint
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Byn.Net.WebRtcNetworkFactory
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OvrAvatarHand
 558ebdd5c791d30ce7c6bd84adf7245b Assembly-CSharp.dll:.PlayerController
 2db25c4782f7d17f2d71bf5375fd6179 Assembly-CSharp.dll:.TestScript
@@ -249,6 +251,5 @@ f500ea790ead39e077948dacb7f72d53 Assembly-CSharp.dll:VRStandardAssets.Utils.Inpu
 32dcc1dca94294515dfea07e896e1a84 Assembly-CSharp.dll:ProBuilder2.Examples.RuntimeEdit
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript.dll:.CharacterMotor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:VRStandardAssets.Utils.VRTrackingReset
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Byn.Net.WebRtcNetworkFactory
-0a22c45c74b5c7ef21e9da54581645b1 Assembly-CSharp.dll:.MessageList
-63f4ec21e0be61752f3b33fad1c67964 Assembly-CSharp.dll:.ChatApp
+2ac706811854b84941af42ea16cd0e99 Assembly-CSharp.dll:VRStandardAssets.Utils.sphere
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MatchMaker
