@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience", "
 EndProject
 Project("{26A6E94B-96C3-F1AB-5DA5-E0BB78FD264A}") = "Colocated-VR-Experience", "Assembly-UnityScript.unityproj", "{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience", "Assembly-CSharp-firstpass.csproj", "{F88B83B1-73F5-79A7-5E0B-56B450AA45B3}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colocated-VR-Experience", "Assembly-CSharp-Editor.csproj", "{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7510AEC-D6C8-AD8A-9945-A6B99989D5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88B83B1-73F5-79A7-5E0B-56B450AA45B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88B83B1-73F5-79A7-5E0B-56B450AA45B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88B83B1-73F5-79A7-5E0B-56B450AA45B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88B83B1-73F5-79A7-5E0B-56B450AA45B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDE58D7-A5A4-DCEB-2781-8F8015256FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU

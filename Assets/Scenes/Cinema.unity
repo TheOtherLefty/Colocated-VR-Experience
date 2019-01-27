@@ -1303,6 +1303,11 @@ Prefab:
       propertyPath: m_ShowDebugRay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114066401821899562, guid: f26bf65b08f72804fa9f81d4493068d3,
+        type: 2}
+      propertyPath: m_LocalPlayerAuthority
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114454747515967910, guid: f26bf65b08f72804fa9f81d4493068d3, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f26bf65b08f72804fa9f81d4493068d3, type: 2}
@@ -1317,7 +1322,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27552
+  m_Name: pb_Mesh12878
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
